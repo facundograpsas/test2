@@ -1,2 +1,76 @@
-@import "bootstrap-sprockets";
+$navbar-default-bg: #E8512C;
+
 @import "bootstrap";
+@import "bootstrap-sprockets";
+
+#logo {
+    float:left;
+    font-size:1.7em;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+#logo :hover{
+    color:#fff;
+    text-decoration:none;
+}
+
+
+.center{
+    text-align: center;
+}
+
+.jumbotron{
+    margin:50px;
+    background-image: asset-url('imagenuno.jpg');
+    background-size: cover;
+    height:700px;
+}
+
+.jumbotron h1{
+    color:#fff;
+    text-align: center;
+    margin-bottom: 50px;
+    letter-spacing: -1px;
+    font-weight: bold
+}
+
+.btn-xlarge{
+    font-size: 1.4em;
+}
+
+.jumbotron a{
+    color:white
+}
+
+body
+{
+    background-image: asset-url("38684.jpg")
+}
+
+footer{
+    margin-top:45px;
+    padding: 5px;
+    border-top: 1px solid #eaeaea;
+    color: #777;
+}
+
+footer a:hover{
+    color: #222;
+}
+
+footer small{
+    float:left;
+}
+
+footer ul{
+    float:right;
+    list-style:none;
+}
+
+footer ul li{
+    float:left;
+    margin-left:15px;
+}
