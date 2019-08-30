@@ -17,18 +17,14 @@ $navbar-default-bg: #E8512C;
     text-decoration:none;
 }
 
-
 .center{
     text-align: center;
 }
-
 .jumbotron{
-    margin:50px;
     background-image: asset-url('imagenuno.jpg');
     background-size: cover;
     height:700px;
 }
-
 .jumbotron h1{
     color:#fff;
     text-align: center;
@@ -44,10 +40,10 @@ $navbar-default-bg: #E8512C;
 .jumbotron a{
     color:white
 }
-
 body
 {
-    background-image: asset-url("38684.jpg")
+    background-image: asset-url("38684.jpg");
+    widows: 100%;
 }
 
 footer{
@@ -73,4 +69,18 @@ footer ul{
 footer ul li{
     float:left;
     margin-left:15px;
+}
+
+.article-actions{
+    border-top:1px solid #eaeaea;
+    padding-top:5px;
+
+}
+
+.description{
+    margin-top: 0;
+}
+
+html{
+    width: 100%;
 }
