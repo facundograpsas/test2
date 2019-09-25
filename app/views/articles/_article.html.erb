@@ -12,6 +12,7 @@
                         <%=time_ago_in_words(article.created_at)%> ago,
                         last updated: <%= time_ago_in_words(article.updated_at)%> ago
                     </small>
+                    <small style="display:block"><%=link_to 'Comentar', article_path(article), class:"btn btn-xs"%></small>
                 </div>
             </div>
             <%if logged_in? && (current_user == article.user || current_user.admin?)%>
